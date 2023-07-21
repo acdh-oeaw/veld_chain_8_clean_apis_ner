@@ -8,4 +8,5 @@ services:
       service: veld
     volumes:
       - ./veld_data_5_apis_ner/json/uncleaned/:/veld/input/
-      - ./veld_data_5_apis_ner/json/cleaned/:/veld/output/
+      - ./veld_data_5_apis_ner/json/cleaned/:/veld/output/1/
+      - ./:/veld/output/2/
