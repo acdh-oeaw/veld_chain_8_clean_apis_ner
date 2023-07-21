@@ -1,0 +1,11 @@
+x-veld:
+  chain:
+
+services:
+  veld:
+    extends:
+      file: ./veld_executable_8_clean_apis_ner/veld.yaml
+      service: veld
+    volumes:
+      - ./veld_data_5_apis_ner/json/uncleaned/:/veld/input/
+      - ./veld_data_5_apis_ner/json/cleaned/:/veld/output/
