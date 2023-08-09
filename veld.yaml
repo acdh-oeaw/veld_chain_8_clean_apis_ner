@@ -2,7 +2,7 @@ x-veld:
   chain:
     about:
       description: "cleans APIS NER data from whitespaces and minor noise."
-      scope: 
+      topic: 
         - "ETL"
         - "data sanitization"
 
