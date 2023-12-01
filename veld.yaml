@@ -12,8 +12,8 @@ services:
       file: ./veld_executable_8_clean_apis_ner/veld.yaml
       service: veld
     volumes:
-      - ./veld_data_5_apis_ner/data/apis_oebl__ner__1_uncleaned.json:/veld/input/data.json
-      - ./veld_data_5_apis_ner/data/apis_oebl__ner__2_cleaned.json:/veld/output/apis_oebl__ner__cleaned.json
-      - ./veld_data_5_apis_ner/data/apis_oebl__ner__3_cleaned_simplified.json:/veld/output/apis_oebl__ner__cleaned_simplified.json
+      - ./veld_data_5_apis_oebl__ner_gold/data/apis_oebl__ner__1_uncleaned.json:/veld/input/data.json
+      - ./veld_data_5_apis_oebl__ner_gold/data/apis_oebl__ner__2_cleaned.json:/veld/output/apis_oebl__ner__cleaned.json
+      - ./veld_data_5_apis_oebl__ner_gold/data/apis_oebl__ner__3_cleaned_simplified.json:/veld/output/apis_oebl__ner__cleaned_simplified.json
       - ./clean.log:/veld/output/clean.log
 
