@@ -1,6 +1,3 @@
-[submodule "veld_data_5_apis_ner"]
-	path = veld_data_5_apis_ner
-	url = https://gitlab.oeaw.ac.at/acdh-ch/nlp/veld_data_5_apis_ner.git
 [submodule "veld_executable_8_clean_apis_ner"]
 	path = veld_executable_8_clean_apis_ner
 	url = git@github.com:steffres/veld_executable_8_clean_apis_ner.git
