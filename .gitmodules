@@ -4,3 +4,6 @@
 [submodule "veld_executable_8_clean_apis_ner"]
 	path = veld_executable_8_clean_apis_ner
 	url = git@github.com:steffres/veld_executable_8_clean_apis_ner.git
+[submodule "veld_data_5_apis_oebl__ner_gold"]
+	path = veld_data_5_apis_oebl__ner_gold
+	url = ../veld_data_5_apis_oebl__ner_gold/
