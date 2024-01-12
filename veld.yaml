@@ -16,4 +16,13 @@ services:
       - ./veld_data_5_apis_oebl__ner_gold/data/apis_oebl__ner__2_cleaned.json:/veld/output/apis_oebl__ner__cleaned.json
       - ./veld_data_5_apis_oebl__ner_gold/data/apis_oebl__ner__3_cleaned_simplified.json:/veld/output/apis_oebl__ner__cleaned_simplified.json
       - ./clean.log:/veld/output/clean.log
+    networks:
+      - exp_1_prefect_network
+    environment:
+      - PREFECT_API_URL=http://prefect_server:4200/api
+      - DEPLOYMENT_NAME=veld_chain_8_clean_apis_ner
+
+networks:
+  exp_1_prefect_network:
+    external: true
 
